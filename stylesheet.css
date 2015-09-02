@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif&subset=latin,cyrillic);
+
+.content {
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 2em;
+
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+
+    color: #4962ab;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 1.7em;
+
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+
+    color: #4962ab;
+}
+
+h3 {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 1.2em;
+
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+
+    color: #4962ab;
+}
+
+p {
+    color: #454545;
+
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+
+    font-family: PT Serif;
+}
+
+a {
+    color: #405594;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin-top:0;
+    margin-bottom: 0.5rem;
+}
+
+ol {
+    margin-top:0;
+    margin-bottom: 0.5rem;
+}
+
+ul li {
+    color: #454545;
+    font-family: PT Serif;
+    list-style-type: none;
+    text-indent: -1em;
+}
+
+ul li:before {
+    content: "— ";
+}
+
+ol li {
+    color: #454545;
+    font-family: PT Serif;
+}
+
+blockquote {
+    font-size: 1.1em;
+    border-left: 0.3rem solid #8ea0d1;
+    padding: 0 1rem;
+    margin-left: 0;
+}
