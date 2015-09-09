@@ -41,7 +41,7 @@ h3 {
 p {
     color: #454545;
 
-    margin-top: 0rem;
+    margin-top: 0.6rem;
     margin-bottom: 0rem;
 
     font-family: PT Serif;
@@ -87,4 +87,9 @@ blockquote {
     border-left: 0.3rem solid #8ea0d1;
     padding: 0 1rem;
     margin-left: 0;
+}
+
+code {
+    font-family: Monaco;
+    font-size: small;
 }
