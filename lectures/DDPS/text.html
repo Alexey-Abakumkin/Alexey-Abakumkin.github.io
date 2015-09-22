@@ -19,6 +19,43 @@
 
 <p><em>7 сентября 2015</em></p>
 
+<h1>Лекция 3</h1>
+
+<p><em>21 сентября 2015</em></p>
+
+<p>Выполнение запроса к API hh.ru:</p>
+
+<p><code>python
+response = requests.get('http://api.hh.ru/status')
+</code></p>
+
+<p>Возвращаемые форматы API:
+<ul>
+    <li>XML
+         <p>
+         <code>
+         &lt;body&gt;
+             &lt;param&gt;1&lt;/param&gt;
+             &lt;name&gt;Tony&lt;/name&gt;
+         &lt;/body&gt;
+        </code></p>
+    </li>
+
+    <li>JSON
+<p><code>
+{
+    "body": {
+        "pararm": 1,
+        "name": "Tony"
+    }
+}
+</code></p>
+</li>
+</ul>
+
+<p><strong>Идемпотентные операции</strong> — результат и состояние системы не изменится от количества запросов.</p>
+
+<p><strong>Неидемпотентные операции</strong> — от которого изменится состояние системы.</p>
 
 </section>
 </body>
